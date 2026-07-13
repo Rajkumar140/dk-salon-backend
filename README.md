@@ -156,9 +156,7 @@ http://localhost:8080
 Frontend Repository
 
 You can find the frontend application here:
-
-Add your frontend GitHub link here
-(e.g., https://github.com/your-username/dk-salon-frontend)
+https://github.com/Rajkumar140/dk-salon-frontend
 
 ---
 
