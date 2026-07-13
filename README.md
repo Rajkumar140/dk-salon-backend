@@ -176,8 +176,6 @@ Author
 
 **Rajkumar J**
 
-Aspiring Java Full Stack Developer
-
 ---
 
 License
