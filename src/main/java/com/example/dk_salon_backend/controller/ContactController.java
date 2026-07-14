@@ -16,7 +16,7 @@ public class ContactController {
         this.contactService = contactService;
     }
 
-    // Get Contact
+    // Basic Api
     @GetMapping("/hello")
     public String sayHello() {
         return "Hello, Contact Information is running!";
