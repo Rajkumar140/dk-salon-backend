@@ -1,4 +1,4 @@
-package com.example.dk_salon_backend.modals;
+package com.example.dk_salon_backend.models;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 

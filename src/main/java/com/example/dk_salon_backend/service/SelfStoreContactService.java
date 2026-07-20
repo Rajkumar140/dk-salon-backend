@@ -1,5 +1,5 @@
 package com.example.dk_salon_backend.service;
-import com.example.dk_salon_backend.modals.Contact;
+import com.example.dk_salon_backend.models.Contact;
 import com.example.dk_salon_backend.repository.ContactRepository;
 import org.springframework.stereotype.Service;
 
