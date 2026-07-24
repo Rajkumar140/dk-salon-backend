@@ -22,6 +22,20 @@ public class ContactController {
         return "Hello, Contact Information is running!";
     }
 
+    // Get Single Contact
+    @GetMapping("/{id}")
+    public ResponseEntity<Contact> getContactById(@PathVariable("id") long id) {
+        Contact contact = contactService.getContactById(id);
+        return ResponseEntity.ok(contact);
+    }
+
+    // Get All Contacts
+    @GetMapping
+    public ResponseEntity<List<Contact>> getContacts() {
+        List<Contact> contacts = contactService.getContacts();
+        return ResponseEntity.ok(contacts);
+    }
+
     // Create Contact
     @PostMapping
     public ResponseEntity<Contact> createContact(@RequestBody Contact contact) {
