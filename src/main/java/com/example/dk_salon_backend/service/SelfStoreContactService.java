@@ -3,7 +3,7 @@ import com.example.dk_salon_backend.models.Contact;
 import com.example.dk_salon_backend.repository.ContactRepository;
 import org.springframework.stereotype.Service;
 import com.example.dk_salon_backend.exception.ContactNotFoundException;
-import java.util.list;
+import java.util.List;
 
 @Service("selfStoreContactService")
 public class SelfStoreContactService implements ContactService {
@@ -16,7 +16,7 @@ public class SelfStoreContactService implements ContactService {
 
     // Get Single Contact
     @Override
-    public Contact getProductById(Long id) {
+    public Contact getContactById(Long id) {
         Contact contact = contactRepository.findById(id).orElseThrow(() -> new
                 ContactNotFoundException("Contact number " + id + " is not found"));
         return contact;
